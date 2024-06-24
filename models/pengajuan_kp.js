@@ -18,19 +18,19 @@ const pengajuan_kp = sequelize.define('pengajuan_kp', {
     },
     id_suratPengantar:{
         type: DataTypes.CHAR(36),
-        allowNull: false
+        allowNull: true
     },
     id_suratBalasan:{
         type: DataTypes.CHAR(36),
-        allowNull: false
+        allowNull: true
     },
     id_proposal:{
         type: DataTypes.CHAR(36),
-        allowNull: false
+        allowNull: true
     },
     id_suratTugas:{
         type: DataTypes.CHAR(36),
-        allowNull: false
+        allowNull: true
     },
     status_pengajuan:{
         type: DataTypes.STRING(30),

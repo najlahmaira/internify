@@ -1,0 +1,463 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unggah Proposal</title>
+  <link href="/src/output.css" rel="stylesheet">
+  <link href="/src/sidebar.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar Section Start -->
+  <div class="sidebar fixed top-0 bottom-0 lg:left-0
+    p-2 w-[280px] overflow-y-auto text-center bg-customeLBlue shadow h-screen">
+    <div class="text-gray-100 text-xl">
+      <div class="p-2.5 mt-1 flex items-center rounded-md ">
+        <img src="/img/logo_unand.png" alt="Logo Unand" class="h-16 px-2 py-1 rounded-md">
+        <h1 class="text-[20px]  ml-3 text-xl text-customBlue font-bold text-start">Pendaftaran Kerja Praktek</h1>
+      </div>
+      <div class="p-2.5 ms-2 mt-2 flex items-center rounded-md px-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none">
+          <path
+            d="M19.3334 12.0833C19.3334 13.3652 18.8242 14.5946 17.9178 15.501C17.0113 16.4074 15.782 16.9167 14.5001 16.9167C13.2182 16.9167 11.9888 16.4074 11.0824 15.501C10.176 14.5946 9.66675 13.3652 9.66675 12.0833C9.66675 10.8015 10.176 9.57208 11.0824 8.66565C11.9888 7.75922 13.2182 7.25 14.5001 7.25C15.782 7.25 17.0113 7.75922 17.9178 8.66565C18.8242 9.57208 19.3334 10.8015 19.3334 12.0833Z"
+            fill="#365DA8" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M14.007 26.5737C7.56237 26.3151 2.41669 21.0081 2.41669 14.5C2.41669 7.82637 7.8264 2.41666 14.5 2.41666C21.1736 2.41666 26.5834 7.82637 26.5834 14.5C26.5834 21.1736 21.1736 26.5833 14.5 26.5833C14.4448 26.5837 14.3897 26.5837 14.3345 26.5833C14.2251 26.5833 14.1158 26.5797 14.007 26.5737ZM6.74615 22.1246C6.6558 21.8651 6.62505 21.5887 6.65617 21.3157C6.6873 21.0427 6.7795 20.7803 6.92593 20.5479C7.07237 20.3154 7.26927 20.1189 7.50203 19.973C7.73479 19.8271 7.99743 19.7354 8.27046 19.7049C12.9805 19.1835 16.0485 19.2306 20.7356 19.7158C21.009 19.7442 21.2723 19.8347 21.5054 19.9803C21.7386 20.1259 21.9354 20.3228 22.0809 20.556C22.2265 20.7892 22.3169 21.0525 22.3453 21.3259C22.3737 21.5993 22.3393 21.8755 22.2448 22.1336C24.2536 20.1012 25.3786 17.3577 25.375 14.5C25.375 8.49397 20.506 3.62499 14.5 3.62499C8.494 3.62499 3.62502 8.49397 3.62502 14.5C3.62502 17.4701 4.81583 20.1622 6.74615 22.1246Z"
+            fill="#365DA8" />
+        </svg>
+        <div class="flex flex-col items-start">
+          <span class="text-[15px] ms-4 text-customBlue">Najla Humaira Desni</span>
+          <span class="text-[15px] ms-4 text-customBlue">Mahasiswa</span>
+        </div>
+      </div>
+      <hr class="my-2 border-customBTransparant ms-4 me-4">
+
+      <div>
+        <div class="p-2.5 mt-2 flex items-center rounded-md px-4 cursor-pointer hover:bg-customBTransparant">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none"
+            class="icon-bg p-2 ms-2">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M9.00017 1C8.79168 0.999972 8.58563 1.04476 8.39597 1.13134C8.20631 1.21791 8.03748 1.34424 7.90092 1.50177C7.76435 1.6593 7.66325 1.84435 7.60446 2.04437C7.54567 2.2444 7.53056 2.45472 7.56017 2.66109C6.50608 2.97231 5.58094 3.61616 4.92292 4.49649C4.26491 5.37681 3.90932 6.44638 3.90926 7.54545V13.3636H3.18198C2.9891 13.3636 2.80412 13.4403 2.66773 13.5766C2.53134 13.713 2.45471 13.898 2.45471 14.0909C2.45471 14.2838 2.53134 14.4688 2.66773 14.6052C2.80412 14.7416 2.9891 14.8182 3.18198 14.8182H14.8183C15.0112 14.8182 15.1962 14.7416 15.3326 14.6052C15.469 14.4688 15.5456 14.2838 15.5456 14.0909C15.5456 13.898 15.469 13.713 15.3326 13.5766C15.1962 13.4403 15.0112 13.3636 14.8183 13.3636H14.0911V7.54545C14.091 6.44638 13.7354 5.37681 13.0774 4.49649C12.4194 3.61616 11.4943 2.97231 10.4402 2.66109C10.4698 2.45472 10.4547 2.2444 10.3959 2.04437C10.3371 1.84435 10.236 1.6593 10.0994 1.50177C9.96285 1.34424 9.79402 1.21791 9.60436 1.13134C9.4147 1.04476 9.20865 0.999972 9.00017 1ZM10.4547 16.2727C10.4547 16.4656 10.3781 16.6506 10.2417 16.787C10.1053 16.9234 9.92032 17 9.72744 17H8.27289C8.08001 17 7.89502 16.9234 7.75863 16.787C7.62224 16.6506 7.54562 16.4656 7.54562 16.2727C7.54562 16.0798 7.62224 15.8949 7.75863 15.7585C7.89502 15.6221 8.08001 15.5455 8.27289 15.5455H9.72744C9.92032 15.5455 10.1053 15.6221 10.2417 15.7585C10.3781 15.8949 10.4547 16.0798 10.4547 16.2727Z"
+              fill="#365DA8" />
+          </svg>
+          <a href="/notifikasiMhsView" class="text-[15px] ml-4 text-customBlue">Notifikasi</a>
+        </div>
+        <div class="p-2.5 ms-2 mt-2 flex items-center rounded-md px-4">
+          <span class="text-[15px] text-customBTransparant">Alur Pendaftaran</span>
+        </div>
+        <div class="p-2.5 flex items-center rounded-md px-4 cursor-pointer  hover:bg-customBTransparant">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20" fill="none"
+            class="icon-bg p-2 ms-2">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M1.172 1.172C-1.19209e-07 2.343 0 4.229 0 8V12C0 15.771 -1.19209e-07 17.657 1.172 18.828C2.343 20 4.229 20 8 20H10C13.771 20 15.657 20 16.828 18.828C18 17.657 18 15.771 18 12V8C18 4.229 18 2.343 16.828 1.172C15.657 -1.19209e-07 13.771 0 10 0H8C4.229 0 2.343 -1.19209e-07 1.172 1.172ZM5 7.25C4.80109 7.25 4.61032 7.32902 4.46967 7.46967C4.32902 7.61032 4.25 7.80109 4.25 8C4.25 8.19891 4.32902 8.38968 4.46967 8.53033C4.61032 8.67098 4.80109 8.75 5 8.75H13C13.1989 8.75 13.3897 8.67098 13.5303 8.53033C13.671 8.38968 13.75 8.19891 13.75 8C13.75 7.80109 13.671 7.61032 13.5303 7.46967C13.3897 7.32902 13.1989 7.25 13 7.25H5ZM5 11.25C4.80109 11.25 4.61032 11.329 4.46967 11.4697C4.32902 11.6103 4.25 11.8011 4.25 12C4.25 12.1989 4.32902 12.3897 4.46967 12.5303C4.61032 12.671 4.80109 12.75 5 12.75H10C10.1989 12.75 10.3897 12.671 10.5303 12.5303C10.671 12.3897 10.75 12.1989 10.75 12C10.75 11.8011 10.671 11.6103 10.5303 11.4697C10.3897 11.329 10.1989 11.25 10 11.25H5Z"
+              fill="#365DA8" />
+          </svg>
+          <a href="/unggahProposalView" class="text-[15px] ml-4 text-customBlue font-bold">Proposal</a>
+        </div>
+        <div class="ms-6 rounded-md px-4 marginTop">
+          <svg xmlns="http://www.w3.org/2000/svg" width="2" height="18" viewBox="0 0 2 18" fill="none">
+            <path
+              d="M1.28267 4.78977H0.447444V0.553977H1.28267V4.78977ZM1.28267 11.1335H0.447444V6.89773H1.28267V11.1335ZM1.28267 17.4773H0.447444L0.447444 13.2415H1.28267L1.28267 17.4773Z"
+              fill="#365DA8" />
+          </svg>
+        </div>
+        <div class="p-2.5 flex items-center rounded-md px-4 cursor-pointer  hover:bg-customBTransparant">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20" fill="none"
+            class="icon-bg p-2 ms-2">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M1.172 1.172C-1.19209e-07 2.343 0 4.229 0 8V12C0 15.771 -1.19209e-07 17.657 1.172 18.828C2.343 20 4.229 20 8 20H10C13.771 20 15.657 20 16.828 18.828C18 17.657 18 15.771 18 12V8C18 4.229 18 2.343 16.828 1.172C15.657 -1.19209e-07 13.771 0 10 0H8C4.229 0 2.343 -1.19209e-07 1.172 1.172ZM5 7.25C4.80109 7.25 4.61032 7.32902 4.46967 7.46967C4.32902 7.61032 4.25 7.80109 4.25 8C4.25 8.19891 4.32902 8.38968 4.46967 8.53033C4.61032 8.67098 4.80109 8.75 5 8.75H13C13.1989 8.75 13.3897 8.67098 13.5303 8.53033C13.671 8.38968 13.75 8.19891 13.75 8C13.75 7.80109 13.671 7.61032 13.5303 7.46967C13.3897 7.32902 13.1989 7.25 13 7.25H5ZM5 11.25C4.80109 11.25 4.61032 11.329 4.46967 11.4697C4.32902 11.6103 4.25 11.8011 4.25 12C4.25 12.1989 4.32902 12.3897 4.46967 12.5303C4.61032 12.671 4.80109 12.75 5 12.75H10C10.1989 12.75 10.3897 12.671 10.5303 12.5303C10.671 12.3897 10.75 12.1989 10.75 12C10.75 11.8011 10.671 11.6103 10.5303 11.4697C10.3897 11.329 10.1989 11.25 10 11.25H5Z"
+              fill="#365DA8" />
+          </svg>
+          <span class="text-[15px] ml-4 text-customBlue">Surat Pengantar</span>
+        </div>
+        <div class="ms-6 rounded-md px-4 marginTop">
+          <svg xmlns="http://www.w3.org/2000/svg" width="2" height="18" viewBox="0 0 2 18" fill="none">
+            <path
+              d="M1.28267 4.78977H0.447444V0.553977H1.28267V4.78977ZM1.28267 11.1335H0.447444V6.89773H1.28267V11.1335ZM1.28267 17.4773H0.447444L0.447444 13.2415H1.28267L1.28267 17.4773Z"
+              fill="#365DA8" />
+          </svg>
+        </div>
+        <div class="p-2.5 flex items-center rounded-md px-4 cursor-pointer  hover:bg-customBTransparant">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20" fill="none"
+            class="icon-bg p-2 ms-2">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M1.172 1.172C-1.19209e-07 2.343 0 4.229 0 8V12C0 15.771 -1.19209e-07 17.657 1.172 18.828C2.343 20 4.229 20 8 20H10C13.771 20 15.657 20 16.828 18.828C18 17.657 18 15.771 18 12V8C18 4.229 18 2.343 16.828 1.172C15.657 -1.19209e-07 13.771 0 10 0H8C4.229 0 2.343 -1.19209e-07 1.172 1.172ZM5 7.25C4.80109 7.25 4.61032 7.32902 4.46967 7.46967C4.32902 7.61032 4.25 7.80109 4.25 8C4.25 8.19891 4.32902 8.38968 4.46967 8.53033C4.61032 8.67098 4.80109 8.75 5 8.75H13C13.1989 8.75 13.3897 8.67098 13.5303 8.53033C13.671 8.38968 13.75 8.19891 13.75 8C13.75 7.80109 13.671 7.61032 13.5303 7.46967C13.3897 7.32902 13.1989 7.25 13 7.25H5ZM5 11.25C4.80109 11.25 4.61032 11.329 4.46967 11.4697C4.32902 11.6103 4.25 11.8011 4.25 12C4.25 12.1989 4.32902 12.3897 4.46967 12.5303C4.61032 12.671 4.80109 12.75 5 12.75H10C10.1989 12.75 10.3897 12.671 10.5303 12.5303C10.671 12.3897 10.75 12.1989 10.75 12C10.75 11.8011 10.671 11.6103 10.5303 11.4697C10.3897 11.329 10.1989 11.25 10 11.25H5Z"
+              fill="#365DA8" />
+          </svg>
+          <a href="unggahBalasanView" class="text-[15px] ml-4 text-customBlue">Surat Balasan</a>
+        </div>
+        <div class="ms-6 rounded-md px-4 marginTop">
+          <svg xmlns="http://www.w3.org/2000/svg" width="2" height="18" viewBox="0 0 2 18" fill="none">
+            <path
+              d="M1.28267 4.78977H0.447444V0.553977H1.28267V4.78977ZM1.28267 11.1335H0.447444V6.89773H1.28267V11.1335ZM1.28267 17.4773H0.447444L0.447444 13.2415H1.28267L1.28267 17.4773Z"
+              fill="#365DA8" />
+          </svg>
+        </div>
+        <div class="p-2.5 flex items-center rounded-md px-4 cursor-pointer  hover:bg-customBTransparant">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20" fill="none"
+            class="icon-bg p-2 ms-2">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M1.172 1.172C-1.19209e-07 2.343 0 4.229 0 8V12C0 15.771 -1.19209e-07 17.657 1.172 18.828C2.343 20 4.229 20 8 20H10C13.771 20 15.657 20 16.828 18.828C18 17.657 18 15.771 18 12V8C18 4.229 18 2.343 16.828 1.172C15.657 -1.19209e-07 13.771 0 10 0H8C4.229 0 2.343 -1.19209e-07 1.172 1.172ZM5 7.25C4.80109 7.25 4.61032 7.32902 4.46967 7.46967C4.32902 7.61032 4.25 7.80109 4.25 8C4.25 8.19891 4.32902 8.38968 4.46967 8.53033C4.61032 8.67098 4.80109 8.75 5 8.75H13C13.1989 8.75 13.3897 8.67098 13.5303 8.53033C13.671 8.38968 13.75 8.19891 13.75 8C13.75 7.80109 13.671 7.61032 13.5303 7.46967C13.3897 7.32902 13.1989 7.25 13 7.25H5ZM5 11.25C4.80109 11.25 4.61032 11.329 4.46967 11.4697C4.32902 11.6103 4.25 11.8011 4.25 12C4.25 12.1989 4.32902 12.3897 4.46967 12.5303C4.61032 12.671 4.80109 12.75 5 12.75H10C10.1989 12.75 10.3897 12.671 10.5303 12.5303C10.671 12.3897 10.75 12.1989 10.75 12C10.75 11.8011 10.671 11.6103 10.5303 11.4697C10.3897 11.329 10.1989 11.25 10 11.25H5Z"
+              fill="#365DA8" />
+          </svg>
+          <span class="text-[15px] ml-4 text-customBlue">Surat Tugas</span>
+        </div>
+        <hr class="my-2 border-customBTransparant ms-4 me-4">
+        <div class="p-2.5 mt-2 flex items-center rounded-md px-4 cursor-pointer  hover:bg-customBTransparant">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            class="icon-bg p-1 ms-2">
+            <g clip-path="url(#clip0_118_367)">
+              <g clip-path="url(#clip1_118_367)">
+                <path
+                  d="M13.5 2.91667C8.21002 2.91667 3.91669 7.21 3.91669 12.5C3.91669 17.79 8.21002 22.0833 13.5 22.0833C18.79 22.0833 23.0834 17.79 23.0834 12.5C23.0834 7.21 18.79 2.91667 13.5 2.91667ZM13.5 6.75C15.3496 6.75 16.8542 8.25458 16.8542 10.1042C16.8542 11.9537 15.3496 13.4583 13.5 13.4583C11.6504 13.4583 10.1459 11.9537 10.1459 10.1042C10.1459 8.25458 11.6504 6.75 13.5 6.75ZM13.5 20.1667C11.5546 20.1667 9.2546 19.3808 7.61585 17.4067C9.23544 16.1417 11.2767 15.375 13.5 15.375C15.7234 15.375 17.7646 16.1417 19.3842 17.4067C17.7454 19.3808 15.4454 20.1667 13.5 20.1667Z"
+                  fill="#365DA8" />
+              </g>
+            </g>
+            <defs>
+              <clipPath id="clip0_118_367">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+              <clipPath id="clip1_118_367">
+                <rect width="23" height="23" fill="white" transform="translate(2 1)" />
+              </clipPath>
+            </defs>
+          </svg>
+          <a href="/changePassView" class="text-[15px] ml-4 text-customBlue">Profile</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Navbar Section End -->
+
+  <!-- Main Section Start -->
+  <div class="sideKanan p-1">
+    <h2 class="text-customBlue text-[28px] font-bold">Unggah Proposal</h2>
+    <p class="mt-1 text-[18px]">Pastikan proposal Anda telah final sebelum diunggah</p>
+    <div id="proposalContainer">
+      <!-- Form Proposal -->
+    </div>
+  </div>
+  <!-- Main Section End -->
+
+  <script>
+    document.addEventListener('DOMContentLoaded', async function () {
+      // Cek proposal null true or false
+      const proposalContainer = document.getElementById('proposalContainer');
+      const token = localStorage.getItem('token');
+      const myHeaders = new Headers();
+      myHeaders.append('Authorization', `Bearer ${token}`);
+
+      try {
+        const response = await fetch('/detailProposal', {
+          method: 'GET',
+          headers: myHeaders
+        });
+
+        const result = await response.json();
+        if (result.success) {
+          // If proposal null false
+          const proposal = result.data.dataProposalPengajuan;
+          proposalContainer.innerHTML = `
+            <form id="uploadForm" class="pt-5 pe-10">
+              <input type="hidden" id="id_proposal" value="${proposal.id_proposal}" />
+              <label class="block mt-5">
+                <span class="font-light">Tanggal Pengajuan</span>
+                <input type="date" id="tanggal_pengajuan" name="tanggal_pengajuan" value="${proposal.tanggal_pengajuan}"
+                  class="mt-2 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block formUnggah rounded-md sm:text-sm focus:ring-1" />
+              </label>
+              <label class="block mt-5">
+                <span class="font-light">Judul Proposal</span>
+                <input type="text" id="judul_proposal" name="judul_proposal" value="${proposal.judul_proposal}"
+                  class="mt-2 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block formUnggah rounded-md sm:text-sm focus:ring-1" placeholder="Judul Proposal" />
+              </label>
+              <label class="block mt-5">
+                <span class="font-light">Perusahaan Tujuan</span>
+                <input type="text" id="perusahaan_tujuan" name="perusahaan_tujuan" value="${proposal.perusahaan_tujuan}"
+                  class="mt-2 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block formUnggah rounded-md sm:text-sm focus:ring-1" placeholder="Perusahaan Tujuan" />
+              </label>
+              <label class="block mt-5">
+                <span class="font-light">Lokasi</span>
+                <input type="text" id="lokasi" name="lokasi" value="${proposal.lokasi}"
+                  class="mt-2 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block formUnggah rounded-md sm:text-sm focus:ring-1" placeholder="Lokasi" />
+              </label>
+              <div class="w-full mt-5 mx-auto my-2 border-2 border-dashed border-gray-400 p-4 rounded-lg flex flex-col items-center">
+                <div class="shrink-0">
+                  <input type="file" id="file_upload" class="file-input">
+                  <label for="file_upload" class="svg-upload flex flex-col items-center">
+                      <svg width="170" height="170" viewBox="0 0 170 170" fill="none" class="mt-4"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M138.125 73.4619V138.125C138.125 142.352 136.446 146.406 133.457 149.395C130.468 152.383 126.414 154.062 122.188 154.062H47.8125C43.5856 154.062 39.5318 152.383 36.543 149.395C33.5541 146.406 31.875 142.352 31.875 138.125V31.875C31.875 27.6481 33.5541 23.5943 36.543 20.6055C39.5318 17.6166 43.5856 15.9375 47.8125 15.9375H80.6006C83.4175 15.9379 86.119 17.057 88.1111 19.0486L135.014 65.9514C137.006 67.9435 138.125 70.645 138.125 73.4619Z"
+                          stroke="#365DA8" stroke-width="10.625" stroke-linejoin="round" />
+                        <path
+                          d="M85 18.5938V58.4375C85 61.2554 86.1194 63.9579 88.112 65.9505C90.1046 67.9431 92.8071 69.0625 95.625 69.0625H135.469"
+                          stroke="#365DA8" stroke-width="10.625" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    <p id="file_name" class="mt-4 text-gray-600">${proposal.file_proposal}</p>
+                  </label>
+                </div>
+              </div>
+              <label>Upload file PDF dengan ukuran maksimal 5MB</label>
+              <br>
+              <div class="flex mt-7 mb-7 justify-center">
+                <button class="me-5 bg-customBlue text-customeLBlue hover:bg-sky-700 w-60 btnKirim" type="button" onclick="editProposal()">
+                  Edit
+                </button>
+                <button class="ms-5 bg-customeGrey text-black-800 hover:bg-customeLBlue w-60 btnKirim" type="button" onclick="deleteProposal()">
+                  Hapus
+                </button>
+              </div>
+            </form>
+          `;
+        } else {
+          // Else proposal null
+          proposalContainer.innerHTML = `
+            <form id="uploadForm" class="pt-5 pe-10">
+              <label class="block mt-5">
+                <span class="font-light">Tanggal Pengajuan</span>
+                <input type="date" id="tanggal_pengajuan" name="tanggal_pengajuan"
+                  class="mt-2 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block formUnggah rounded-md sm:text-sm focus:ring-1" />
+              </label>
+              <label class="block mt-5">
+                <span class="font-light">Judul Proposal</span>
+                <input type="text" id="judul_proposal" name="judul_proposal"
+                  class="mt-2 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block formUnggah rounded-md sm:text-sm focus:ring-1" placeholder="Judul Proposal" />
+              </label>
+              <label class="block mt-5">
+                <span class="font-light">Perusahaan Tujuan</span>
+                <input type="text" id="perusahaan_tujuan" name="perusahaan_tujuan"
+                  class="mt-2 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block formUnggah rounded-md sm:text-sm focus:ring-1" placeholder="Perusahaan Tujuan" />
+              </label>
+              <label class="block mt-5">
+                <span class="font-light">Lokasi</span>
+                <input type="text" id="lokasi" name="lokasi"
+                  class="mt-2 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block formUnggah rounded-md sm:text-sm focus:ring-1" placeholder="Lokasi" />
+              </label>
+              <div class="w-full mt-5 mx-auto my-2 border-2 border-dashed border-gray-400 p-4 rounded-lg flex flex-col items-center">
+                <div class="shrink-0">
+                  <input type="file" id="file_upload" class="file-input">
+                  <label for="file_upload" class="svg-upload flex flex-col items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="152" height="151" viewBox="0 0 152 151"
+                        fill="none" class="mt-4">
+                        <rect width="152" height="150.375" rx="75.1875" fill="#F2F6FF" />
+                        <path
+                          d="M50 87.388V90.625C50 93.2109 51.0272 95.6908 52.8557 97.5193C54.6842 99.3478 57.1641 100.375 59.75 100.375H92.25C94.8359 100.375 97.3158 99.3478 99.1443 97.5193C100.973 95.6908 102 93.2109 102 90.625V87.375M76 85.75V50M76 50L87.375 61.375M76 50L64.625 61.375"
+                          stroke="#365DA8" stroke-width="4.875" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <p id="file_name" class="mt-4 text-gray-600">Klik Untuk Mengunggah</p>
+                  </label>
+                </div>
+              </div>
+              <label>Upload file PDF dengan ukuran maksimal 5MB</label>
+              <br>
+              <button class="bg-customBlue text-customeLBlue hover:bg-sky-700 w-full mt-7 mb-7 btnKirim" id="btnKirim" type="submit">
+                Kirim
+              </button>
+            </form>
+          `;
+        }
+      } catch (error) {
+        console.error('Error:', error);
+      }
+
+      // Update tag p to filename
+      const fileInput = document.getElementById('file_upload');
+      const fileName = document.getElementById('file_name');
+
+      fileInput.addEventListener('change', function () {
+        if (fileInput.files.length > 0) {
+          fileName.textContent = fileInput.files[0].name;
+        } else {
+          fileName.textContent = 'Klik Untuk Mengunggah';
+        }
+      });
+
+      // Upload Proposal
+      document.querySelector('form').addEventListener('submit', async function (event) {
+        const token = localStorage.getItem('token');
+        const myHeaders = new Headers();
+        myHeaders.append('Authorization', `Bearer ${token}`);
+
+        event.preventDefault();
+        const tanggal_pengajuan = document.getElementById('tanggal_pengajuan').value;
+        const judul_proposal = document.getElementById('judul_proposal').value;
+        const perusahaan_tujuan = document.getElementById('perusahaan_tujuan').value;
+        const lokasi = document.getElementById('lokasi').value;
+        const fileUpload = document.getElementById('file_upload').files[0];
+
+        if (fileUpload && fileUpload.type !== 'application/pdf') {
+          Swal.fire({
+            title: 'Hanya jenis file PDF yg di izinkan!',
+            icon: 'info',
+          });
+          return;
+        }
+
+        const formData = new FormData();
+        formData.append('tanggal_pengajuan', tanggal_pengajuan);
+        formData.append('judul_proposal', judul_proposal);
+        formData.append('perusahaan_tujuan', perusahaan_tujuan);
+        formData.append('lokasi', lokasi);
+        formData.append('file', fileUpload);
+
+        try {
+          const response = await fetch('/uploadProposal', {
+            method: 'POST',
+            body: formData,
+            headers: myHeaders
+          });
+
+          const result = await response.json();
+          if (!result.success) {
+            Swal.fire({
+              title: result.message,
+              icon: 'error'
+            });
+          } else {
+            Swal.fire({
+              title: result.message,
+              icon: 'success',
+              customClass: {
+                popup: 'swal2-popup-custom'
+              },
+              willClose: () => {
+                location.reload();
+              }
+            });
+          }
+        } catch (error) {
+          console.error('Error:', error);
+          Swal.fire({
+            title: 'Terjadi kesalahan saat mengunggah proposal',
+            icon: 'error'
+          });
+        }
+      });
+    });
+
+    //Edit Proposal
+    async function editProposal() {
+      const token = localStorage.getItem('token');
+      const myHeaders = new Headers();
+      myHeaders.append('Authorization', `Bearer ${token}`);
+
+      const tanggal_pengajuan = document.getElementById('tanggal_pengajuan').value;
+      const judul_proposal = document.getElementById('judul_proposal').value;
+      const perusahaan_tujuan = document.getElementById('perusahaan_tujuan').value;
+      const lokasi = document.getElementById('lokasi').value;
+      const fileUpload = document.getElementById('file_upload').files[0];
+      const id_proposal = document.getElementById('id_proposal').value;
+
+      if (fileUpload && fileUpload.type !== 'application/pdf') {
+        Swal.fire({
+          title: 'Hanya jenis file PDF yg di izinkan!',
+          icon: 'info',
+        });
+        return;
+      }
+
+      const formData = new FormData();
+      formData.append('tanggal_pengajuan', tanggal_pengajuan);
+      formData.append('judul_proposal', judul_proposal);
+      formData.append('perusahaan_tujuan', perusahaan_tujuan);
+      formData.append('lokasi', lokasi);
+      if (fileUpload) {
+        formData.append('file', fileUpload);
+      }
+
+      try {
+        const response = await fetch(`/editProposal/${id_proposal}`, {
+          method: 'POST',
+          body: formData,
+          headers: myHeaders
+        });
+
+        const result = await response.json();
+        if (!result.success) {
+          Swal.fire({
+            title: result.message,
+            icon: 'error'
+          });
+        } else {
+          Swal.fire({
+            title: result.message,
+            icon: 'success',
+            customClass: {
+              popup: 'swal2-popup-custom'
+            },
+            willClose: () => {
+              location.reload();
+            }
+          });
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        Swal.fire({
+          title: 'Terjadi kesalahan saat mengedit proposal',
+          icon: 'error'
+        });
+      }
+    }
+
+    //Hapus Proposal
+    async function deleteProposal() {
+      const token = localStorage.getItem('token');
+      const myHeaders = new Headers();
+      myHeaders.append('Authorization', `Bearer ${token}`);
+      const id_proposal = document.getElementById('id_proposal').value;
+
+      Swal.fire({
+        title: 'Apakah Anda yakin?',
+        text: "Proposal ini akan dihapus secara permanen!",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya, hapus!',
+        cancelButtonText: 'Batal'
+      }).then(async (result) => {
+        if (result.isConfirmed) {
+          try {
+            const response = await fetch(`/hapusProposal/${id_proposal}`, {
+              method: 'POST',
+              headers: myHeaders
+            });
+
+            const result = await response.json();
+            if (!result.success) {
+              Swal.fire({
+                title: result.message,
+                icon: 'error'
+              });
+            } else {
+              Swal.fire({
+                title: result.message,
+                icon: 'success',
+                customClass: {
+                  popup: 'swal2-popup-custom'
+                },
+                willClose: () => {
+                  location.reload();
+                }
+              });
+            }
+          } catch (error) {
+            console.error('Error:', error);
+            Swal.fire({
+              title: 'Terjadi kesalahan saat menghapus proposal',
+              icon: 'error'
+            });
+          }
+        }
+      });
+    }
+  </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>

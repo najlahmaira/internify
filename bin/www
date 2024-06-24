@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('projek-sistem-pendaftaran-kp-joki:server');
+var debug = require('debug')('projek-sistem-pendaftaran-kp:server');
 var http = require('http');
 
 /**

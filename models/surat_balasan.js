@@ -37,7 +37,7 @@ const surat_balasan = sequelize.define('surat_balasan', {
 })
 
 surat_balasan.hasOne(pengajuan_kp, {foreignKey: 'id_suratBalasan', as: 'dataSuratBalasan'})
-pengajuan_kp.belongsTo(surat_balasan, {foreignKey: 'id_suratBalasan', as: 'dataPengajuan'})
+pengajuan_kp.belongsTo(surat_balasan, {foreignKey: 'id_suratBalasan', as: 'dataPengajuanBalasan'})
 
 
 module.exports = surat_balasan

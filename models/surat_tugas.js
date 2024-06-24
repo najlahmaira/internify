@@ -3,7 +3,7 @@ const sequelize = require('../config/db')
 const pengajuan_kp = require('./pengajuan_kp')
 
 const surat_tugas = sequelize.define('surat_tugas', {
-    id_suratTugas: {
+    id_surat_tugas: {
         type: DataTypes.CHAR(36),
         allowNull: false,
         primaryKey: true,
@@ -14,7 +14,7 @@ const surat_tugas = sequelize.define('surat_tugas', {
         allowNull: false
     },
     judul_proposal:{
-        type: DataTypes.STRING,a,
+        type: DataTypes.STRING,
         allowNull: false
     },
     perusahaan_tujuan:{
@@ -49,6 +49,6 @@ const surat_tugas = sequelize.define('surat_tugas', {
 })
 
 surat_tugas.hasOne(pengajuan_kp, {foreignKey: 'id_suratTugas', as: 'dataSuratTugas'})
-pengajuan_kp.belongsTo(surat_tugas, {foreignKey: 'id_suratTugas', as: 'dataPengajuan'})
+pengajuan_kp.belongsTo(surat_tugas, {foreignKey: 'id_suratTugas', as: 'dataPengajuanTugas'})
 
 module.exports = surat_tugas

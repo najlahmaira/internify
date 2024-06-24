@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken')
 const modelTokenMhs = require('../models/token_mahasiswa')
-const modelTokenSekre = require('../models/sekretaris')
+const modelTokenSekre = require('../models/token_sekretaris')
 
 const verifyTokenMahasiswa = (req, res, next) => {    
     try {

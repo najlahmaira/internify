@@ -25,7 +25,11 @@ const surat_pengantar = sequelize.define('surat_pengantar', {
         type: DataTypes.STRING(256),
         allowNull: true
     },
-    cretaed_at:{
+    status:{
+        type: DataTypes.STRING(20),
+        allowNull: false
+    },
+    created_at:{
         type: DataTypes.DATE,
         allowNull: false
     },
@@ -41,6 +45,6 @@ const surat_pengantar = sequelize.define('surat_pengantar', {
 })
 
 surat_pengantar.hasOne(pengajuan_kp, {foreignKey: 'id_suratPengantar', as: 'dataSuratPengantar'})
-pengajuan_kp.belongsTo(surat_pengantar, {foreignKey: 'id_suratPengantar', as: 'dataPengajuan'})
+pengajuan_kp.belongsTo(surat_pengantar, {foreignKey: 'id_suratPengantar', as: 'dataPengajuanPengantar'})
 
 module.exports = surat_pengantar

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grenze:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Irish+Grover&display=swap');
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.icon-bg {
+  background-color: white;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+}
+
+.marginTop {
+  margin-top: -8px;
+  margin-bottom: -8px;
+}
+
+.marginMinTop {
+  margin-top: -24px;
+}
+
+.sideKanan {
+  margin-top: 48px;
+  margin-left: 330px;
+}
+
+.formUnggah {
+  width: 400px;
+  height: 44px;
+}
+
+.file-input {
+  display: none;
+}
+
+.svg-upload {
+  cursor: pointer;
+}
+
+.btnKirim {
+  height: 44px;
+  border-radius: 8px;
+}
+
+.tableBorder {
+  border-radius: 16px;
+}
+
+.notif {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 6%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.divNotif {
+  background-color: #ECF2FF;
+  height: max-content;
+  width: max-content;
+  padding: 6%;
+  border-radius: 24px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.indiv {
+  background-color: white;
+  height: min-content;
+  width: 400px;
+  margin-top: 24px;
+  padding: 4%;
+  text-align: left;
+}
+
+.txt-indiv {
+  font-family: "Grenze", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: red;
+}
+
+.txt-notif {
+  font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+}
+
+.txt-judindiv {
+  color: grey;
+  font-size: 24px;
+}
